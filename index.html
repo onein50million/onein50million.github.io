@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang=en>
+<script src="mpf.js"></script>
+<head>
+    <meta charset=utf-8>
+    <title>MPF Discord Timestamp Calculator</title>
+</head>
+
+<body>
+    <label>Estimated Completion Time in Hours</label>
+    <input id="hours" type="number">
+    <button onclick="generate_timestamp()">Generate Timestamp</button>
+
+    <input id="output">
+
+    <button id="clipboard_button" hidden onclick="copy_to_clipboard()">Copy output to clipboard</button>
+</body>
+
+</html>
